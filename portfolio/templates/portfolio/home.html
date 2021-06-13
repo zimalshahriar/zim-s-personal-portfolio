@@ -1,0 +1,40 @@
+{% extends 'portfolio/base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<div class="row justify-content-center mb- 3">
+    <div class="col-md-10 text-center">
+        <h1 id="hometext" class="font-weight-bold">Zim Al-Shahriar is a new ambitious Web Developer 😊</h1>
+    </div>
+</div>
+
+<div class="row justify-content-center my-5">
+    <div class="col-6">
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <style>
+img {
+  border-radius: 50%;
+}
+
+
+
+            </style>
+        </head>
+        <body>
+
+
+        <img src="{% static 'portfolio/InShot_20210125_164341505.jpg' %}" width="600" height="600">
+
+        </body>
+        </html>
+
+    </div>
+
+    <body id="bg" style="background-image: url({% static 'portfolio/pexels-henry-&-co-1939485.jpg' %})"></body>
+
+
+    {% endblock %}
